@@ -1,21 +1,21 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
-class ErrorBoundary extends Component{
-    constructor(props){
+class ErrorBoundary extends Component {
+    constructor(props) {
         super(props);
         this.state = {
             hasError: false
         }
     }
 
-    componentDidCatch(error, info){
-        this.setState({hasError: true});
+    componentDidCatch(error, info) {
+        this.setState({ hasError: true });
     }
 
-    render(){
-        const {hasError} = this.state;
+    render() {
+        const { hasError } = this.state;
 
-        if(hasError){
+        if (hasError) {
             return <h1>Ooooops. This is not good</h1>;
         }
 
