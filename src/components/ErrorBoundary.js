@@ -19,7 +19,7 @@ class ErrorBoundary extends Component {
             return <h1>Ooooops. This is not good</h1>;
         }
 
-        return this.props.children;
+        return  this.props.children ;
     }
 }
 
