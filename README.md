@@ -1,7 +1,6 @@
 ## Project Description
 
 This app holds numerous contacts with unique auto generated profile pics and has a working search bar that updates as you type something in it.
----
 I made this app as to learn react and some of it's basic functionality.
  
 
