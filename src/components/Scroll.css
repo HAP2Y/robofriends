@@ -1,5 +1,5 @@
 .scrollable {
-    overflow: scroll;
+    overflow-y: scroll;
     border-top: 2px solid rgba(8, 6, 6, 0.548);
     border-bottom: 2px solid rgba(8, 6, 6, 0.548);
     height: 580px;
